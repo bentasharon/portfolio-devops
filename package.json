@@ -9,5 +9,16 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bentasharon/portfolio-devops.git"
+  },
+  "bugs": {
+    "url": "https://github.com/bentasharon/portfolio-devops/issues"
+  },
+  "homepage": "https://github.com/bentasharon/portfolio-devops#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
