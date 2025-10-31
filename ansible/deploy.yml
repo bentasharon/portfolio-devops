@@ -1,0 +1,8 @@
+- name: Deploy Kubernetes manifests
+  hosts: localhost
+  connection: local
+  gather_facts: no
+
+  tasks:
+    - name: Apply Kubernetes manifests
+      command: kubectl apply -f ../terraform/k8s/
